@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <CheckBox
+        android:id="@+id/checkBoxTask"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/editTextTask"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/delButtonTask"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="&#10006;"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/darkRed"/>
+</LinearLayout>
